@@ -1,0 +1,13 @@
+{
+  "name": "victors-bench",
+  "version": "0.0.1",
+  "description": "A minimal yet modern hugo theme",
+  "main": "index.js",
+  "repository": "https://github.com/spadino/victors-bench-hugo-theme.git",
+  "author": "spadino <spada.andrea@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "sanitize.scss": "^1.0.0"
+  }  
+}
