@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+  <h1>{{ .Page.Title }}</h1>
+
+  <article aria-role="article" class="page">
+
+    <section aria-role="region" class="page content">
+
+      {{ .Content }}
+
+    </section>
+
+  </article>
+
+{{ end }}

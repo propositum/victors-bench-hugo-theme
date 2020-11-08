@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html>
 
-<head>    
-    {{ partial "head.html" . }}
-</head>
+<head>{{ partial "head.html" . }}</head>
 
 <body>
+    <nav>{{ partial "header.html" . }}</nav>
 
-    <nav>
-        {{ partial "header.html" . }}
-    </nav>
+    <main id="content" aria-role="main">
 
-    <main id="content">
-        {{ block "main" . }}{{ end }}
+        {{ block "main" . }}
+        {{ end }}
+
     </main>
-
 </body>
 
-<footer>
-    {{ partial "footer.html" . }}
-</footer>
+<footer>{{ partial "footer.html" . }}</footer>
 
 </html>
